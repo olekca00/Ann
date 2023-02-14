@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a462e0b-48f4-4eff-b903-7b3e304d38b2" name="Changes" comment="Цикли в Java. Цикл for.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
       <workItem from="1670874733377" duration="375000" />
       <workItem from="1676359437715" duration="419000" />
       <workItem from="1676359878140" duration="4684000" />
-      <workItem from="1676364609903" duration="5498000" />
+      <workItem from="1676364609903" duration="5809000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1669459739478</created>
@@ -116,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676360481583</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Цикли в Java. Цикл for.">
+      <created>1676370407169</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676370407169</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

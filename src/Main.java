@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         double value = 1;
-        System.out.println("Ряд чисел: 1 + 1/2 + 1/3 ... + 1/n; кроків - 100" );
-        //ряд чисел виду 1 + 1/2 + 1/3 ... + 1/x; кроків - 53
+        System.out.println("Ряд чисел: 1 + 1/2 + 1/3 ... + 1/n; кроків - 53" );
         for (double n = 0; n < 53; n++) {
             int i = 1;
             i += n;
