@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a462e0b-48f4-4eff-b903-7b3e304d38b2" name="Changes" comment="Цикли в Java. Цикл for.">
+      <change afterPath="$PROJECT_DIR$/src/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="4_lesson" />
+        <entry key="$PROJECT_DIR$" value="5,6_lesson" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +67,12 @@
       <workItem from="1670874733377" duration="375000" />
       <workItem from="1676359437715" duration="419000" />
       <workItem from="1676359878140" duration="4684000" />
-      <workItem from="1676364609903" duration="5809000" />
+      <workItem from="1676364609903" duration="5911000" />
+      <workItem from="1676370998703" duration="201000" />
+      <workItem from="1676382917283" duration="898000" />
+      <workItem from="1676397485813" duration="110000" />
+      <workItem from="1677061603640" duration="5787000" />
+      <workItem from="1677067528859" duration="3029000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1669459739478</created>
@@ -122,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676370407169</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Цикли в Java. Цикл for.">
+      <created>1676370470032</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676370470032</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
