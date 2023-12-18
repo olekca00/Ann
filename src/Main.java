@@ -1,20 +1,26 @@
 public class Main {
+
     public static void main(String[] args) {
 
-        /* 6. створити два об'єкти класу
-           7. для першого застосувати конструктор без параметрів, поля заповнити за допомогою сеттерів
-           8. для другого застосувати конструктор з параметрами
-           9. вивести інформацію про два об'єкти (скористатись методом класу для цього)
+        Poppy papaver_orientale = new Poppy(); // створено об'єкт papaver_orientale типу Мак; створення об'єкту класу Poppy (використано конструктор без параметрів)
+        papaver_orientale.say(); // вкликали метод say() для об'єкта papaver_orientale (який типу Мак)
+        papaver_orientale.setName("Мак східний (Papaver orientale)"); // за допомогою сеттера setName() встановлюємо значення поля name об'єкта papaver_orientale
+        System.out.println("Вид: " + papaver_orientale.getName()); // виводимо рядок з видом, для цього використовуємо геттер getName() для читання значення поля name
+
+        Tulip tulipa_hageri = new Tulip(); // створено об'єкт з іменем tulipa_hageri типу Тюльпан; створення першого об'єкту класу Tulip (використано конструктор без параметрів)
+        tulipa_hageri.setName("Тюльпан Хаджері (Tulipa hageri)"); // за допомогою сеттера setName() встановлюємо значення поля name об'єкта tulipa_hageri
+        System.out.println("Вид: " + tulipa_hageri.getName()); // виводимо рядок з видом, для цього використовуємо геттер getName() для читання значення поля name
+
+        Tulip angelique = new Tulip("Анжеліка (Angelique)", "біло-рожевий", 45); // створення другого об'єкту класу Tulip (використано конструктор з параметрами)
+        double fullAngelique = angelique.getFullName(); // застосовано метод getOwner() класу Tulip до об'єкта angelique
+
+        tulipa_hageri.say(); // вклик методу say() для об'єкту c (який типу Тюльпан)
+
+        /**
+         методу say() немає ні в класі Poppy, ні в класі Tulip
+         він визначений лише в класі Flower
+         але через те, що класи Poppy і Tulip наслідують клас Flower
+         ми маємо можливість використовувати в об'єктах цих класів метод say()
         */
-
-        Building building1 = new Building(); // створення першого об'єкту класу (використано конструктор без параметрів)
-        building1.setApartmentCount(8); // використано сеттер для зміни поля ApartmentCount (кількість квартир)
-        building1.setFloorCount(4); // використано сеттер для зміни поля FloorCount (кількість поверхів)
-        building1.setAddress("Зелена 57"); // використано сеттер для зміни поля Address (адреса)
-        double FloorAddressBuilding1 = building1.getFloorAddress(); // використано метод getFloorAddress() класу Building до об'єкта building1
-
-        Building building2 = new Building("Анна", "Бардиш", 15); // створення другого об'єкту класу (використано конструктор з параметрами)
-        double FloorAddressBuilding2 = building2.getOwner(); // застосовано метод getOwner() класу Building до об'єкта building2
-
     }
 }
